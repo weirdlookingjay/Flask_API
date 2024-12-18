@@ -87,3 +87,5 @@ def create_app(db_url=None):
     api.register_blueprint(UserBlueprint)
 
     return app
+
+my_app = create_app()
